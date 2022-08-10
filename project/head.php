@@ -2,16 +2,30 @@
 
 
 <div class="SubPage">
-    <div class="SubMain">
+    <div class="SubMain" stlye="background: url(<?= $subnum  ?>)">
+
+        <div class="container">
+            <div class="sub_slogan">
+                <?= $e_slogan ?>
+            </div>
+            <div class="sub_title">
+                <?= $sub_title ?>
+            </div>
+        </div>
 
     </div>
+
+    <style>
+        .SubMain {
+            background: url(./img/main0<?= $subnum ?>.jpg) no-repeat center center/cover
+        }
+    </style>
+
     <div class="SubContent">
         <div class="container">
             <aside>
-
-                <div class="customer">
-
+                <div class="Lnb">
+                    <? include 'nav.php'; ?>
                 </div>
-
             </aside>
             <article>

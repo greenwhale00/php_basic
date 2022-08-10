@@ -1,6 +1,12 @@
+<?
+$subnum = 1;
+$sub_title = '기업정보';
+?>
+
+
 <? include 'head.php'; ?>
 
+나는 서브페이지 0<?= $subnum ?>
 
-<h2>회사소개</h2>
 
 <? include 'tail.php'; ?>
