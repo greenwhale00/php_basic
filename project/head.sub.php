@@ -9,7 +9,7 @@
     <title><?= $title ?></title>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css?ver=1.0">
 </head>
 
 <body>
@@ -32,12 +32,8 @@
 
                     </h1>
                     <nav class="Gnb">
-
                         <? include 'nav.php'; ?>
-
-
                     </nav>
                 </div>
             </div>
-
         </header>
